@@ -1,0 +1,22 @@
+.place {
+    height: 70px;
+    margin-bottom: 9px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 34px;
+    font-size: 26px;
+    font-weight: 700;
+    align-items: center;
+    flex: 0.7;
+}
+.res {
+    font-size: 36px;
+}
+
+@media (max-width: 350px) {
+    .place {
+        height: 50px;
+        padding: 0 24px;
+        font-size: 20px;
+    }
+}

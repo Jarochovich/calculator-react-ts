@@ -1,0 +1,19 @@
+.panel {
+    background: rgb(255, 255, 255);
+    background: var(--panel-background-color);
+    
+    display: grid;
+    grid-template-areas:
+      "tools tools tools function"
+      "mainNumbers mainNumbers mainNumbers function"
+      "mainNumbers mainNumbers mainNumbers function"
+      "mainNumbers mainNumbers mainNumbers function"
+      "mainNumbers mainNumbers mainNumbers function";
+    border-radius:  0 0 30px 30px;
+    padding: 26px 34px;
+    row-gap: 20px;
+    column-gap: 25px;
+    flex: 0.4;
+}
+
+

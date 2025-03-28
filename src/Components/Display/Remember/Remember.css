@@ -1,0 +1,24 @@
+.remember {
+    min-height: 35px;
+    height: max-content;
+    color: var(--remember-color);
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0 34px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex: 0.2;
+}
+
+.rememberText{
+    max-height: 70px;
+    overflow-y: auto;
+}
+
+
+@media(max-width: 450px) {
+    .remember {
+        padding: 0px 10px;
+      }
+}

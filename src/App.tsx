@@ -1,24 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Calculator from './Components/Calculator/Calculator';
+import store from './Redux/Redux';
+import StyleButton from './Components/ThemeButtons/ModeButtons/ThemeButtons';
+import {useTheme} from './Hooks/useTheme';
+import ThemeButtons from './Components/ThemeButtons/ModeButtons/ThemeButtons';
 
 function App() {
+  const {theme, setTheme} = useTheme();
+
+  const handleLightThemeClick = () => {
+    setTheme('light');
+  }
+
+  const handleDarkThemeClick = () => {
+    setTheme('dark');
+  }
+
+  const themes = {"Light": "Light", "Dark": "Dark"};
+  const actions = {
+    handleLightThemeClick: handleLightThemeClick,
+    handleDarkThemeClick: handleDarkThemeClick
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+        <ThemeButtons themes = {themes} actions = {actions}/>
+        <Calculator store = {store}/>
     </div>
   );
 }
