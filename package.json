@@ -1,5 +1,6 @@
 {
   "name": "calculator",
+  "homepage": "https://github.com/Jarochovich/4_Semestr",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
