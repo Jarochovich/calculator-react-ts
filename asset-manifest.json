@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Jarochovich/calculator-react/static/css/main.2a5a8982.css",
-    "main.js": "/Jarochovich/calculator-react/static/js/main.228d02f5.js",
-    "static/js/453.83bdee10.chunk.js": "/Jarochovich/calculator-react/static/js/453.83bdee10.chunk.js",
-    "index.html": "/Jarochovich/calculator-react/index.html",
-    "main.2a5a8982.css.map": "/Jarochovich/calculator-react/static/css/main.2a5a8982.css.map",
-    "main.228d02f5.js.map": "/Jarochovich/calculator-react/static/js/main.228d02f5.js.map",
-    "453.83bdee10.chunk.js.map": "/Jarochovich/calculator-react/static/js/453.83bdee10.chunk.js.map"
+    "main.css": "/calculator-react/static/css/main.2a5a8982.css",
+    "main.js": "/calculator-react/static/js/main.d260b882.js",
+    "static/js/453.83bdee10.chunk.js": "/calculator-react/static/js/453.83bdee10.chunk.js",
+    "index.html": "/calculator-react/index.html",
+    "main.2a5a8982.css.map": "/calculator-react/static/css/main.2a5a8982.css.map",
+    "main.d260b882.js.map": "/calculator-react/static/js/main.d260b882.js.map",
+    "453.83bdee10.chunk.js.map": "/calculator-react/static/js/453.83bdee10.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a5a8982.css",
-    "static/js/main.228d02f5.js"
+    "static/js/main.d260b882.js"
   ]
 }
